@@ -1,10 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
+
   <parent>
-    <groupId>org.jvnet.hudson.plugins</groupId>
+    <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>plugin</artifactId>
-    <version>1.391</version><!-- which version of Hudson is this plugin built against? -->
-    <!--<relativePath>../pom.xml</relativePath>-->
+    <version>3.22</version>
   </parent>
 
   <groupId>hudson.plugins.signal_killer</groupId>
@@ -12,6 +12,10 @@
   <version>1.1-SNAPSHOT</version>
   <packaging>hpi</packaging>
   <url>http://wiki.jenkins-ci.org/display/JENKINS/Signal+killer</url>
+
+  <properties>
+    <jenkins.version>2.54</jenkins.version>
+  </properties>
   
   <developers>
     <developer>
