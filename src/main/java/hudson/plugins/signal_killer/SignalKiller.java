@@ -36,7 +36,7 @@ public class SignalKiller extends ProcessKiller {
             if (retVal == 0) {
                 return true;
             }
-        } catch (IOException | Error ex) {
+        } catch (Error ex) {
             LOGGER.log(Level.SEVERE, "Can't kill process!", ex);
         }
 
