@@ -4,7 +4,7 @@
     <groupId>org.jvnet.hudson.plugins</groupId>
     <artifactId>plugin</artifactId>
     <version>1.391</version><!-- which version of Hudson is this plugin built against? -->
-    <relativePath>../pom.xml</relativePath>
+    <!--<relativePath>../pom.xml</relativePath>-->
   </parent>
 
   <groupId>hudson.plugins.signal_killer</groupId>
@@ -25,13 +25,12 @@
     <developerConnection>scm:git:git@github.com:jenkinsci/signal-killer.git</developerConnection>
     <url>http://github.com/jenkinsci/signal-killer</url>
   </scm>
-  
-  
+
+
   <distributionManagement>
     <repository>
-      <id>java.net-m2-repository</id>
-      <url>http://maven.jenkins-ci.org:8081/content/repositories/releases/
-      </url>
+      <id>maven.jenkins-ci.org</id>
+      <url>https://repo.jenkins-ci.org/releases</url>
     </repository>
   </distributionManagement>
 
