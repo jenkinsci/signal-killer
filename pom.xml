@@ -16,7 +16,8 @@
   <parent>
     <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>plugin</artifactId>
-    <version>3.22</version>
+    <version>4.51</version>
+    <relativePath />
   </parent>
 
   <groupId>hudson.plugins.signal_killer</groupId>
@@ -26,8 +27,7 @@
   <url>http://wiki.jenkins-ci.org/display/JENKINS/Signal+killer</url>
 
   <properties>
-    <jenkins.version>2.54</jenkins.version>
-    <java.level>8</java.level>
+    <jenkins.version>2.346.3</jenkins.version>
   </properties>
   
   <developers>
@@ -38,7 +38,7 @@
   </developers>
 
   <scm>
-    <connection>scm:git:git://github.com/jenkinsci/signal-killer.git</connection>
+    <connection>scm:git:https://github.com/jenkinsci/signal-killer.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/signal-killer.git</developerConnection>
     <url>http://github.com/jenkinsci/signal-killer</url>
     <tag>HEAD</tag>
