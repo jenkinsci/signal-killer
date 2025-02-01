@@ -22,7 +22,7 @@
 
   <groupId>hudson.plugins.signal_killer</groupId>
   <artifactId>signal-killer</artifactId>
-  <version>1.2</version>
+  <version>1.2-SNAPSHOT</version>
   <packaging>hpi</packaging>
   <url>http://wiki.jenkins-ci.org/display/JENKINS/Signal+killer</url>
 
@@ -41,7 +41,7 @@
     <connection>scm:git:https://github.com/jenkinsci/signal-killer.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/signal-killer.git</developerConnection>
     <url>http://github.com/jenkinsci/signal-killer</url>
-    <tag>signal-killer-1.2</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <distributionManagement>
