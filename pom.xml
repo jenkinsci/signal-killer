@@ -29,13 +29,6 @@
   <properties>
     <jenkins.version>2.462.3</jenkins.version>
   </properties>
-  
-  <developers>
-    <developer>
-      <id>vjuranek</id>
-      <name>Vojtech Juranek</name>
-    </developer>
-  </developers>
 
   <scm>
     <connection>scm:git:https://github.com/jenkinsci/signal-killer.git</connection>
